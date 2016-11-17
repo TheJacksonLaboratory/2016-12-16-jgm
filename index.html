@@ -12,7 +12,7 @@ humantime: "9:00am - 4:30pm"    # human-readable times for the workshop (e.g., "
 startdate: 2016-12-16 # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2016-12-16 # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Saira Kazmi", "Sandeep Namburi", "Shane Sanders"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Joshy George", "Asli Uyar"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["saira.kazmi@jax.org","sandeep.namburi@jax.org", "shane.sanders@jax.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:  ""       # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -29,6 +29,11 @@ eventbrite:  ""       # optional: alphanumeric key for Eventbrite registration, 
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
 
+<h3>This full day "Introduction to High Performance Computing" workshop is for internal JAX users. Please register with your institutional e-mail.</h3>
+
+<h4>Some materials used in these lessons were derived from work that is Copyright © Software Carpentry (http://software-carpentry.org/). 
+All Software Carpentry instructional material is made available under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). <h4>
+<h2 id="general">General Information</h2>
 <!--
   EVENTBRITE
 
@@ -47,11 +52,6 @@ eventbrite:  ""       # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h3>This full day "Introduction to High Performance Computing" workshop is for internal JAX users. Please register with your institutional e-mail.</h3>
-
-<h4>Some materials used in these lessons were derived from work that is Copyright © Software Carpentry (http://software-carpentry.org/). 
-All Software Carpentry instructional material is made available under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). <h4>
-<h2 id="general">General Information</h2>
 
 <!--
   INTRODUCTION
@@ -203,14 +203,14 @@ All Software Carpentry instructional material is made available under the [Creat
       <tr> <td>1:00-1:30</td> <td>Finding things</td> </tr>
       <tr> <td>1:30-2:30</td> <td>Writing script to do tasks on single machine (FastQC, Trimmomatic, Alignment)</td> </tr>
       <tr> <td>2:30</td> <td>Coffee</td> </tr>
-      <tr> <td>2:45</td> <td>Introduction to HPC clusters</td> </tr>
-      <tr> <td> </td> <td>Connecting to clusters (ssh, scp)</td> </tr>
-       <tr> <td> </td> <td>Using installed software</td> </tr>
-       <tr> <td> </td> <td>Queues on HPC</td> </tr>
-       <tr> <td> </td> <td>Running Jobs on HPC</td> </tr>
-       <tr> <td> </td> <td>Job Arrays</td> </tr>
-       <tr> <td> </td> <td>Write jobs for scaling up computation (FastQC, Trimmomatic, Alignment)</td> </tr>
-       <tr><td>4:00</td> <td>Wrap up</td> </tr>
+      <tr> <td></td> <td>Introduction to HPC clusters</td> </tr>
+      <tr> <td>2:45 </td> <td>Connecting to clusters (ssh, scp)</td> </tr>
+       <tr> <td>3:00 </td> <td>Using installed software</td> </tr>
+       <tr> <td>3:10 </td> <td>Queues on HPC</td> </tr>
+       <tr> <td>3:15 </td> <td>Running Jobs on HPC</td> </tr>
+       <tr> <td>3:30 </td> <td>Job Arrays</td> </tr>
+       <tr> <td>3:45 </td> <td>Write jobs for scaling up computation (FastQC, Trimmomatic, Alignment)</td> </tr>
+       <tr><td>4:00 </td> <td>Wrap up</td> </tr>
     </table>
   </div>
 </div>
@@ -525,11 +525,11 @@ All Software Carpentry instructional material is made available under the [Creat
   </div>
 </div> <!-- End of 'editor' section. -->
   <p>
-
+<!--
 
 <div id="vm">
   <h3>Virtual Machine</h3>
-<!--
+
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
